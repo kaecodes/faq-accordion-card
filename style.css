@@ -92,10 +92,20 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 0.5rem 0;
 }
 
 .answer {
   display: none;
+}
+
+.questions-container .qa-pair.active .answer {
+  margin-top: 1rem;
+  display: block;
+}
+
+.rotate {
+  transform: rotate(180deg);
 }
 
 hr {
